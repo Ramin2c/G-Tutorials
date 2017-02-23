@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F533FD791E5F1F4500262463 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F533FD781E5F1F4500262463 /* main.c */; };
+		F533FD7D1E5F209900262463 /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58336F11E54969A00BFAF60 /* GStreamer.framework */; };
 		F58336EC1E54947F00BFAF60 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F58336EB1E54947F00BFAF60 /* main.c */; };
 		F58336F21E54969A00BFAF60 /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58336F11E54969A00BFAF60 /* GStreamer.framework */; };
 		F58336FB1E54A56000BFAF60 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F58336FA1E54A56000BFAF60 /* main.c */; };
@@ -18,6 +20,15 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F533FD741E5F1F4500262463 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
 			);
@@ -45,6 +56,8 @@
 
 /* Begin PBXFileReference section */
 		F51403CF1E51ED35007D8A96 /* GStreamer Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "GStreamer Practice"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F533FD761E5F1F4500262463 /* Tutorial 1 alt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Tutorial 1 alt"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F533FD781E5F1F4500262463 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F58336E91E54947F00BFAF60 /* Tutorial 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Tutorial 1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58336EB1E54947F00BFAF60 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F58336F11E54969A00BFAF60 /* GStreamer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GStreamer.framework; path = ../../../../Library/Frameworks/GStreamer.framework; sourceTree = "<group>"; };
@@ -57,6 +70,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F533FD731E5F1F4500262463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F533FD7D1E5F209900262463 /* GStreamer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +105,7 @@
 			children = (
 				F58336EA1E54947F00BFAF60 /* Tutorial 1 */,
 				F58336F91E54A56000BFAF60 /* Tutorial 2 */,
+				F533FD771E5F1F4500262463 /* Tutorial 1 alt */,
 				F51403D01E51ED35007D8A96 /* Products */,
 				F58336F01E54969A00BFAF60 /* Frameworks */,
 			);
@@ -95,8 +117,17 @@
 				F51403CF1E51ED35007D8A96 /* GStreamer Practice */,
 				F58336E91E54947F00BFAF60 /* Tutorial 1 */,
 				F58336F81E54A56000BFAF60 /* Tutorial 2 */,
+				F533FD761E5F1F4500262463 /* Tutorial 1 alt */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F533FD771E5F1F4500262463 /* Tutorial 1 alt */ = {
+			isa = PBXGroup;
+			children = (
+				F533FD781E5F1F4500262463 /* main.c */,
+			);
+			path = "Tutorial 1 alt";
 			sourceTree = "<group>";
 		};
 		F58336EA1E54947F00BFAF60 /* Tutorial 1 */ = {
@@ -141,6 +172,23 @@
 			name = "GStreamer Practice";
 			productName = "GStreamer Practice";
 			productReference = F51403CF1E51ED35007D8A96 /* GStreamer Practice */;
+			productType = "com.apple.product-type.tool";
+		};
+		F533FD751E5F1F4500262463 /* Tutorial 1 alt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F533FD7C1E5F1F4500262463 /* Build configuration list for PBXNativeTarget "Tutorial 1 alt" */;
+			buildPhases = (
+				F533FD721E5F1F4500262463 /* Sources */,
+				F533FD731E5F1F4500262463 /* Frameworks */,
+				F533FD741E5F1F4500262463 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tutorial 1 alt";
+			productName = "Tutorial 1 alt";
+			productReference = F533FD761E5F1F4500262463 /* Tutorial 1 alt */;
 			productType = "com.apple.product-type.tool";
 		};
 		F58336E81E54947F00BFAF60 /* Tutorial 1 */ = {
@@ -190,6 +238,10 @@
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
+					F533FD751E5F1F4500262463 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
 					F58336E81E54947F00BFAF60 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
@@ -215,6 +267,7 @@
 				F51403CE1E51ED35007D8A96 /* GStreamer Practice */,
 				F58336E81E54947F00BFAF60 /* Tutorial 1 */,
 				F58336F71E54A56000BFAF60 /* Tutorial 2 */,
+				F533FD751E5F1F4500262463 /* Tutorial 1 alt */,
 			);
 		};
 /* End PBXProject section */
@@ -224,6 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F533FD721E5F1F4500262463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F533FD791E5F1F4500262463 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +333,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Library/Frameworks/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -286,6 +348,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Library/Frameworks/GStreamer.framework/Headers/**";
+				LIBRARY_SEARCH_PATHS = "/Library/Frameworks/GStreamer.framework/Libraries/**";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -319,6 +383,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Library/Frameworks/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -327,6 +392,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Library/Frameworks/GStreamer.framework/Headers/**";
+				LIBRARY_SEARCH_PATHS = "/Library/Frameworks/GStreamer.framework/Libraries/**";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
@@ -336,10 +403,7 @@
 		F51403D71E51ED35007D8A96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = "/Library/Frameworks/GStreamer.framework/Headers/**";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -348,11 +412,28 @@
 		F51403D81E51ED35007D8A96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = "/Library/Frameworks/GStreamer.framework/Headers/**";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F533FD7A1E5F1F4500262463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F533FD7B1E5F1F4500262463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -360,11 +441,9 @@
 		F58336EE1E54947F00BFAF60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(LOCAL_LIBRARY_DIR)/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "/Library/Frameworks/GStreamer.framework/Headers/**";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -373,11 +452,9 @@
 		F58336EF1E54947F00BFAF60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(LOCAL_LIBRARY_DIR)/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "/Library/Frameworks/GStreamer.framework/Headers/**";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -386,11 +463,9 @@
 		F58336FC1E54A56000BFAF60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(LOCAL_LIBRARY_DIR)/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = /Library/Frameworks/GStreamer.framework/Headers;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -398,11 +473,9 @@
 		F58336FD1E54A56000BFAF60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(LOCAL_LIBRARY_DIR)/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = /Library/Frameworks/GStreamer.framework/Headers;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -427,6 +500,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		F533FD7C1E5F1F4500262463 /* Build configuration list for PBXNativeTarget "Tutorial 1 alt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F533FD7A1E5F1F4500262463 /* Debug */,
+				F533FD7B1E5F1F4500262463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		F58336ED1E54947F00BFAF60 /* Build configuration list for PBXNativeTarget "Tutorial 1" */ = {
 			isa = XCConfigurationList;

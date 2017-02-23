@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Tutorial 1 alt.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>Tutorial 1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>F51403CE1E51ED35007D8A96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F533FD751E5F1F4500262463</key>
 		<dict>
 			<key>primary</key>
 			<true/>
