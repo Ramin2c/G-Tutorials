@@ -7,12 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F523A3431F55D2890047DC91 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F523A3421F55D2890047DC91 /* main.c */; };
+		F523A3471F55D2B60047DC91 /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58336F11E54969A00BFAF60 /* GStreamer.framework */; };
+		F523A3561F5EBA750047DC91 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F523A3551F5EBA750047DC91 /* main.c */; };
+		F523A35A1F5EBC9A0047DC91 /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58336F11E54969A00BFAF60 /* GStreamer.framework */; };
 		F533FD791E5F1F4500262463 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F533FD781E5F1F4500262463 /* main.c */; };
 		F533FD7D1E5F209900262463 /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58336F11E54969A00BFAF60 /* GStreamer.framework */; };
+		F55506A41ECDDFDA00EB6849 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F55506A31ECDDFDA00EB6849 /* main.c */; };
+		F55506A81ECDE01600EB6849 /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58336F11E54969A00BFAF60 /* GStreamer.framework */; };
+		F55A128C1EC305680056DFA9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F55A128B1EC305680056DFA9 /* main.c */; };
+		F55A12961EC30D310056DFA9 /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58336F11E54969A00BFAF60 /* GStreamer.framework */; };
+		F55A12A31EC5AABA0056DFA9 /* basic_mux.c in Sources */ = {isa = PBXBuildFile; fileRef = F55A12A21EC5AABA0056DFA9 /* basic_mux.c */; };
+		F55A12A41EC5C2D90056DFA9 /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58336F11E54969A00BFAF60 /* GStreamer.framework */; };
+		F55A12BD1EC607F40056DFA9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F55A12BC1EC607F40056DFA9 /* main.c */; };
+		F55A12C11EC608590056DFA9 /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58336F11E54969A00BFAF60 /* GStreamer.framework */; };
+		F565DBD11F29DF9B00C38F85 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F565DBD01F29DF9B00C38F85 /* main.c */; };
+		F565DBD51F29E05200C38F85 /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58336F11E54969A00BFAF60 /* GStreamer.framework */; };
+		F5767CA01F542A1D00CD291C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F5767C9F1F542A1D00CD291C /* main.c */; };
+		F5767CA51F542FFD00CD291C /* libgdk_pixbuf-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5767CA41F542FFD00CD291C /* libgdk_pixbuf-2.0.0.dylib */; };
+		F5767CA81F54572E00CD291C /* tcpSource.c in Sources */ = {isa = PBXBuildFile; fileRef = F5767CA61F54572E00CD291C /* tcpSource.c */; };
 		F58336EC1E54947F00BFAF60 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F58336EB1E54947F00BFAF60 /* main.c */; };
 		F58336F21E54969A00BFAF60 /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58336F11E54969A00BFAF60 /* GStreamer.framework */; };
 		F58336FB1E54A56000BFAF60 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F58336FA1E54A56000BFAF60 /* main.c */; };
 		F58336FF1E54A6AD00BFAF60 /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58336F11E54969A00BFAF60 /* GStreamer.framework */; };
+		F5DDAC8E1F4EE70B0022A54B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F5DDAC8D1F4EE70B0022A54B /* main.c */; };
+		F5DDAC921F4EE7850022A54B /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58336F11E54969A00BFAF60 /* GStreamer.framework */; };
+		F5DDAC9A1F5042790022A54B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F5DDAC991F5042790022A54B /* main.c */; };
+		F5DDAC9E1F5042C70022A54B /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58336F11E54969A00BFAF60 /* GStreamer.framework */; };
+		F5DDACA61F5044C30022A54B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F5DDACA51F5044C30022A54B /* main.c */; };
+		F5DDACAA1F5045140022A54B /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58336F11E54969A00BFAF60 /* GStreamer.framework */; };
+		F5DDACB21F504FC30022A54B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F5DDACB11F504FC30022A54B /* main.c */; };
+		F5DDACB61F504FDD0022A54B /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58336F11E54969A00BFAF60 /* GStreamer.framework */; };
+		F5DDACBE1F50511B0022A54B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F5DDACBD1F50511B0022A54B /* main.c */; };
+		F5DDACC21F50514D0022A54B /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58336F11E54969A00BFAF60 /* GStreamer.framework */; };
+		F5FF852A1ECCB5E800FAF5D9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F5FF85291ECCB5E800FAF5D9 /* main.c */; };
+		F5FF852E1ECCB64900FAF5D9 /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58336F11E54969A00BFAF60 /* GStreamer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +54,79 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		F523A33E1F55D2890047DC91 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F523A3511F5EBA750047DC91 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		F533FD741E5F1F4500262463 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F555069F1ECDDFDA00EB6849 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F55A12871EC305680056DFA9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F55A12991EC5AA990056DFA9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F55A12B81EC607F40056DFA9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F565DBCC1F29DF9B00C38F85 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F5767C9B1F542A1D00CD291C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -52,17 +153,104 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		F5DDAC891F4EE70B0022A54B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F5DDAC951F5042780022A54B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F5DDACA11F5044C30022A54B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F5DDACAD1F504FC30022A54B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F5DDACB91F50511B0022A54B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F5FF85251ECCB5E800FAF5D9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F51403CF1E51ED35007D8A96 /* GStreamer Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "GStreamer Practice"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F523A3401F55D2890047DC91 /* Snapshot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Snapshot; sourceTree = BUILT_PRODUCTS_DIR; };
+		F523A3421F55D2890047DC91 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F523A3531F5EBA750047DC91 /* WebcamSnapshot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WebcamSnapshot; sourceTree = BUILT_PRODUCTS_DIR; };
+		F523A3551F5EBA750047DC91 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F533FD761E5F1F4500262463 /* Tutorial 1 alt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Tutorial 1 alt"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F533FD781E5F1F4500262463 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F55506A11ECDDFDA00EB6849 /* Metadata_Extractor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Metadata_Extractor; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55506A31ECDDFDA00EB6849 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F55A12891EC305680056DFA9 /* Overlay */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Overlay; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55A128B1EC305680056DFA9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F55A129B1EC5AA990056DFA9 /* Muxer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Muxer; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55A12A21EC5AABA0056DFA9 /* basic_mux.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = basic_mux.c; sourceTree = "<group>"; };
+		F55A12B41EC5E49A0056DFA9 /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
+		F55A12BA1EC607F40056DFA9 /* TSPlayer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TSPlayer; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55A12BC1EC607F40056DFA9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F565DBCE1F29DF9B00C38F85 /* JpegMux */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JpegMux; sourceTree = BUILT_PRODUCTS_DIR; };
+		F565DBD01F29DF9B00C38F85 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F5767C9D1F542A1D00CD291C /* gdk-gstappsrc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "gdk-gstappsrc"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5767C9F1F542A1D00CD291C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F5767CA41F542FFD00CD291C /* libgdk_pixbuf-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgdk_pixbuf-2.0.0.dylib"; path = "../../../../usr/local/Cellar/gdk-pixbuf/2.36.9/lib/libgdk_pixbuf-2.0.0.dylib"; sourceTree = "<group>"; };
+		F5767CA61F54572E00CD291C /* tcpSource.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tcpSource.c; sourceTree = "<group>"; };
+		F5767CA71F54572E00CD291C /* tcpSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tcpSource.h; sourceTree = "<group>"; };
 		F58336E91E54947F00BFAF60 /* Tutorial 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Tutorial 1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58336EB1E54947F00BFAF60 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F58336F11E54969A00BFAF60 /* GStreamer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GStreamer.framework; path = ../../../../Library/Frameworks/GStreamer.framework; sourceTree = "<group>"; };
 		F58336F81E54A56000BFAF60 /* Tutorial 2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Tutorial 2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58336FA1E54A56000BFAF60 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F5C856471F4736E9001AED9B /* g.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = g.c; sourceTree = "<group>"; };
+		F5DDAC8B1F4EE70B0022A54B /* PushImage */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PushImage; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5DDAC8D1F4EE70B0022A54B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F5DDAC971F5042780022A54B /* playback-Tutorial-6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "playback-Tutorial-6"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5DDAC991F5042790022A54B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F5DDACA31F5044C30022A54B /* playback-Tutorial-7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "playback-Tutorial-7"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5DDACA51F5044C30022A54B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F5DDACAF1F504FC30022A54B /* player-Tutorial-8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "player-Tutorial-8"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5DDACB11F504FC30022A54B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F5DDACBB1F50511B0022A54B /* appSrc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = appSrc; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5DDACBD1F50511B0022A54B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F5FF85271ECCB5E800FAF5D9 /* appsink */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = appsink; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5FF85291ECCB5E800FAF5D9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +261,75 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F523A33D1F55D2890047DC91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F523A3471F55D2B60047DC91 /* GStreamer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F523A3501F5EBA750047DC91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F523A35A1F5EBC9A0047DC91 /* GStreamer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F533FD731E5F1F4500262463 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F533FD7D1E5F209900262463 /* GStreamer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F555069E1ECDDFDA00EB6849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55506A81ECDE01600EB6849 /* GStreamer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55A12861EC305680056DFA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55A12961EC30D310056DFA9 /* GStreamer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55A12981EC5AA990056DFA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55A12A41EC5C2D90056DFA9 /* GStreamer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55A12B71EC607F40056DFA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55A12C11EC608590056DFA9 /* GStreamer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F565DBCB1F29DF9B00C38F85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F565DBD51F29E05200C38F85 /* GStreamer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5767C9A1F542A1D00CD291C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5767CA51F542FFD00CD291C /* libgdk_pixbuf-2.0.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +349,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F5DDAC881F4EE70B0022A54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DDAC921F4EE7850022A54B /* GStreamer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DDAC941F5042780022A54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DDAC9E1F5042C70022A54B /* GStreamer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DDACA01F5044C30022A54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DDACAA1F5045140022A54B /* GStreamer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DDACAC1F504FC30022A54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DDACB61F504FDD0022A54B /* GStreamer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DDACB81F50511B0022A54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DDACC21F50514D0022A54B /* GStreamer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5FF85241ECCB5E800FAF5D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FF852E1ECCB64900FAF5D9 /* GStreamer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -106,6 +406,20 @@
 				F58336EA1E54947F00BFAF60 /* Tutorial 1 */,
 				F58336F91E54A56000BFAF60 /* Tutorial 2 */,
 				F533FD771E5F1F4500262463 /* Tutorial 1 alt */,
+				F55A128A1EC305680056DFA9 /* Overlay */,
+				F55A129C1EC5AA990056DFA9 /* Muxer */,
+				F55A12BB1EC607F40056DFA9 /* TSPlayer */,
+				F5FF85281ECCB5E800FAF5D9 /* appsink */,
+				F55506A21ECDDFDA00EB6849 /* Metadata_Extractor */,
+				F565DBCF1F29DF9B00C38F85 /* JpegMux */,
+				F5DDAC8C1F4EE70B0022A54B /* PushImage */,
+				F5DDAC981F5042790022A54B /* playback-Tutorial-6 */,
+				F5DDACA41F5044C30022A54B /* playback-Tutorial-7 */,
+				F5DDACB01F504FC30022A54B /* player-Tutorial-8 */,
+				F5DDACBC1F50511B0022A54B /* appSrc */,
+				F5767C9E1F542A1D00CD291C /* gdk-gstappsrc */,
+				F523A3411F55D2890047DC91 /* Snapshot */,
+				F523A3541F5EBA750047DC91 /* WebcamSnapshot */,
 				F51403D01E51ED35007D8A96 /* Products */,
 				F58336F01E54969A00BFAF60 /* Frameworks */,
 			);
@@ -118,8 +432,38 @@
 				F58336E91E54947F00BFAF60 /* Tutorial 1 */,
 				F58336F81E54A56000BFAF60 /* Tutorial 2 */,
 				F533FD761E5F1F4500262463 /* Tutorial 1 alt */,
+				F55A12891EC305680056DFA9 /* Overlay */,
+				F55A129B1EC5AA990056DFA9 /* Muxer */,
+				F55A12BA1EC607F40056DFA9 /* TSPlayer */,
+				F5FF85271ECCB5E800FAF5D9 /* appsink */,
+				F55506A11ECDDFDA00EB6849 /* Metadata_Extractor */,
+				F565DBCE1F29DF9B00C38F85 /* JpegMux */,
+				F5DDAC8B1F4EE70B0022A54B /* PushImage */,
+				F5DDAC971F5042780022A54B /* playback-Tutorial-6 */,
+				F5DDACA31F5044C30022A54B /* playback-Tutorial-7 */,
+				F5DDACAF1F504FC30022A54B /* player-Tutorial-8 */,
+				F5DDACBB1F50511B0022A54B /* appSrc */,
+				F5767C9D1F542A1D00CD291C /* gdk-gstappsrc */,
+				F523A3401F55D2890047DC91 /* Snapshot */,
+				F523A3531F5EBA750047DC91 /* WebcamSnapshot */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F523A3411F55D2890047DC91 /* Snapshot */ = {
+			isa = PBXGroup;
+			children = (
+				F523A3421F55D2890047DC91 /* main.c */,
+			);
+			path = Snapshot;
+			sourceTree = "<group>";
+		};
+		F523A3541F5EBA750047DC91 /* WebcamSnapshot */ = {
+			isa = PBXGroup;
+			children = (
+				F523A3551F5EBA750047DC91 /* main.c */,
+			);
+			path = WebcamSnapshot;
 			sourceTree = "<group>";
 		};
 		F533FD771E5F1F4500262463 /* Tutorial 1 alt */ = {
@@ -128,6 +472,54 @@
 				F533FD781E5F1F4500262463 /* main.c */,
 			);
 			path = "Tutorial 1 alt";
+			sourceTree = "<group>";
+		};
+		F55506A21ECDDFDA00EB6849 /* Metadata_Extractor */ = {
+			isa = PBXGroup;
+			children = (
+				F55506A31ECDDFDA00EB6849 /* main.c */,
+			);
+			path = Metadata_Extractor;
+			sourceTree = "<group>";
+		};
+		F55A128A1EC305680056DFA9 /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				F55A128B1EC305680056DFA9 /* main.c */,
+			);
+			path = Overlay;
+			sourceTree = "<group>";
+		};
+		F55A129C1EC5AA990056DFA9 /* Muxer */ = {
+			isa = PBXGroup;
+			children = (
+				F55A12A21EC5AABA0056DFA9 /* basic_mux.c */,
+			);
+			path = Muxer;
+			sourceTree = "<group>";
+		};
+		F55A12BB1EC607F40056DFA9 /* TSPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F55A12BC1EC607F40056DFA9 /* main.c */,
+			);
+			path = TSPlayer;
+			sourceTree = "<group>";
+		};
+		F565DBCF1F29DF9B00C38F85 /* JpegMux */ = {
+			isa = PBXGroup;
+			children = (
+				F565DBD01F29DF9B00C38F85 /* main.c */,
+			);
+			path = JpegMux;
+			sourceTree = "<group>";
+		};
+		F5767C9E1F542A1D00CD291C /* gdk-gstappsrc */ = {
+			isa = PBXGroup;
+			children = (
+				F5767C9F1F542A1D00CD291C /* main.c */,
+			);
+			path = "gdk-gstappsrc";
 			sourceTree = "<group>";
 		};
 		F58336EA1E54947F00BFAF60 /* Tutorial 1 */ = {
@@ -141,6 +533,8 @@
 		F58336F01E54969A00BFAF60 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F5767CA41F542FFD00CD291C /* libgdk_pixbuf-2.0.0.dylib */,
+				F55A12B41EC5E49A0056DFA9 /* libc++.1.dylib */,
 				F58336F11E54969A00BFAF60 /* GStreamer.framework */,
 			);
 			name = Frameworks;
@@ -150,8 +544,59 @@
 			isa = PBXGroup;
 			children = (
 				F58336FA1E54A56000BFAF60 /* main.c */,
+				F5C856471F4736E9001AED9B /* g.c */,
 			);
 			path = "Tutorial 2";
+			sourceTree = "<group>";
+		};
+		F5DDAC8C1F4EE70B0022A54B /* PushImage */ = {
+			isa = PBXGroup;
+			children = (
+				F5DDAC8D1F4EE70B0022A54B /* main.c */,
+			);
+			path = PushImage;
+			sourceTree = "<group>";
+		};
+		F5DDAC981F5042790022A54B /* playback-Tutorial-6 */ = {
+			isa = PBXGroup;
+			children = (
+				F5DDAC991F5042790022A54B /* main.c */,
+			);
+			path = "playback-Tutorial-6";
+			sourceTree = "<group>";
+		};
+		F5DDACA41F5044C30022A54B /* playback-Tutorial-7 */ = {
+			isa = PBXGroup;
+			children = (
+				F5DDACA51F5044C30022A54B /* main.c */,
+			);
+			path = "playback-Tutorial-7";
+			sourceTree = "<group>";
+		};
+		F5DDACB01F504FC30022A54B /* player-Tutorial-8 */ = {
+			isa = PBXGroup;
+			children = (
+				F5DDACB11F504FC30022A54B /* main.c */,
+			);
+			path = "player-Tutorial-8";
+			sourceTree = "<group>";
+		};
+		F5DDACBC1F50511B0022A54B /* appSrc */ = {
+			isa = PBXGroup;
+			children = (
+				F5DDACBD1F50511B0022A54B /* main.c */,
+				F5767CA61F54572E00CD291C /* tcpSource.c */,
+				F5767CA71F54572E00CD291C /* tcpSource.h */,
+			);
+			path = appSrc;
+			sourceTree = "<group>";
+		};
+		F5FF85281ECCB5E800FAF5D9 /* appsink */ = {
+			isa = PBXGroup;
+			children = (
+				F5FF85291ECCB5E800FAF5D9 /* main.c */,
+			);
+			path = appsink;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +619,40 @@
 			productReference = F51403CF1E51ED35007D8A96 /* GStreamer Practice */;
 			productType = "com.apple.product-type.tool";
 		};
+		F523A33F1F55D2890047DC91 /* Snapshot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F523A3461F55D2890047DC91 /* Build configuration list for PBXNativeTarget "Snapshot" */;
+			buildPhases = (
+				F523A33C1F55D2890047DC91 /* Sources */,
+				F523A33D1F55D2890047DC91 /* Frameworks */,
+				F523A33E1F55D2890047DC91 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snapshot;
+			productName = Snapshot;
+			productReference = F523A3401F55D2890047DC91 /* Snapshot */;
+			productType = "com.apple.product-type.tool";
+		};
+		F523A3521F5EBA750047DC91 /* WebcamSnapshot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F523A3571F5EBA750047DC91 /* Build configuration list for PBXNativeTarget "WebcamSnapshot" */;
+			buildPhases = (
+				F523A34F1F5EBA750047DC91 /* Sources */,
+				F523A3501F5EBA750047DC91 /* Frameworks */,
+				F523A3511F5EBA750047DC91 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebcamSnapshot;
+			productName = WebcamSnapshot;
+			productReference = F523A3531F5EBA750047DC91 /* WebcamSnapshot */;
+			productType = "com.apple.product-type.tool";
+		};
 		F533FD751E5F1F4500262463 /* Tutorial 1 alt */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F533FD7C1E5F1F4500262463 /* Build configuration list for PBXNativeTarget "Tutorial 1 alt" */;
@@ -189,6 +668,108 @@
 			name = "Tutorial 1 alt";
 			productName = "Tutorial 1 alt";
 			productReference = F533FD761E5F1F4500262463 /* Tutorial 1 alt */;
+			productType = "com.apple.product-type.tool";
+		};
+		F55506A01ECDDFDA00EB6849 /* Metadata_Extractor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55506A71ECDDFDA00EB6849 /* Build configuration list for PBXNativeTarget "Metadata_Extractor" */;
+			buildPhases = (
+				F555069D1ECDDFDA00EB6849 /* Sources */,
+				F555069E1ECDDFDA00EB6849 /* Frameworks */,
+				F555069F1ECDDFDA00EB6849 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Metadata_Extractor;
+			productName = Metadata_Extractor;
+			productReference = F55506A11ECDDFDA00EB6849 /* Metadata_Extractor */;
+			productType = "com.apple.product-type.tool";
+		};
+		F55A12881EC305680056DFA9 /* Overlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55A128F1EC305680056DFA9 /* Build configuration list for PBXNativeTarget "Overlay" */;
+			buildPhases = (
+				F55A12851EC305680056DFA9 /* Sources */,
+				F55A12861EC305680056DFA9 /* Frameworks */,
+				F55A12871EC305680056DFA9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Overlay;
+			productName = Overlay;
+			productReference = F55A12891EC305680056DFA9 /* Overlay */;
+			productType = "com.apple.product-type.tool";
+		};
+		F55A129A1EC5AA990056DFA9 /* Muxer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55A129F1EC5AA990056DFA9 /* Build configuration list for PBXNativeTarget "Muxer" */;
+			buildPhases = (
+				F55A12971EC5AA990056DFA9 /* Sources */,
+				F55A12981EC5AA990056DFA9 /* Frameworks */,
+				F55A12991EC5AA990056DFA9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Muxer;
+			productName = Muxer;
+			productReference = F55A129B1EC5AA990056DFA9 /* Muxer */;
+			productType = "com.apple.product-type.tool";
+		};
+		F55A12B91EC607F40056DFA9 /* TSPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55A12BE1EC607F40056DFA9 /* Build configuration list for PBXNativeTarget "TSPlayer" */;
+			buildPhases = (
+				F55A12B61EC607F40056DFA9 /* Sources */,
+				F55A12B71EC607F40056DFA9 /* Frameworks */,
+				F55A12B81EC607F40056DFA9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSPlayer;
+			productName = TSPlayer;
+			productReference = F55A12BA1EC607F40056DFA9 /* TSPlayer */;
+			productType = "com.apple.product-type.tool";
+		};
+		F565DBCD1F29DF9B00C38F85 /* JpegMux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F565DBD41F29DF9B00C38F85 /* Build configuration list for PBXNativeTarget "JpegMux" */;
+			buildPhases = (
+				F565DBCA1F29DF9B00C38F85 /* Sources */,
+				F565DBCB1F29DF9B00C38F85 /* Frameworks */,
+				F565DBCC1F29DF9B00C38F85 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JpegMux;
+			productName = JpegMux;
+			productReference = F565DBCE1F29DF9B00C38F85 /* JpegMux */;
+			productType = "com.apple.product-type.tool";
+		};
+		F5767C9C1F542A1D00CD291C /* gdk-gstappsrc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5767CA31F542A1D00CD291C /* Build configuration list for PBXNativeTarget "gdk-gstappsrc" */;
+			buildPhases = (
+				F5767C991F542A1D00CD291C /* Sources */,
+				F5767C9A1F542A1D00CD291C /* Frameworks */,
+				F5767C9B1F542A1D00CD291C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gdk-gstappsrc";
+			productName = "gdk-gstappsrc";
+			productReference = F5767C9D1F542A1D00CD291C /* gdk-gstappsrc */;
 			productType = "com.apple.product-type.tool";
 		};
 		F58336E81E54947F00BFAF60 /* Tutorial 1 */ = {
@@ -225,6 +806,108 @@
 			productReference = F58336F81E54A56000BFAF60 /* Tutorial 2 */;
 			productType = "com.apple.product-type.tool";
 		};
+		F5DDAC8A1F4EE70B0022A54B /* PushImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5DDAC911F4EE70B0022A54B /* Build configuration list for PBXNativeTarget "PushImage" */;
+			buildPhases = (
+				F5DDAC871F4EE70B0022A54B /* Sources */,
+				F5DDAC881F4EE70B0022A54B /* Frameworks */,
+				F5DDAC891F4EE70B0022A54B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PushImage;
+			productName = PushImage;
+			productReference = F5DDAC8B1F4EE70B0022A54B /* PushImage */;
+			productType = "com.apple.product-type.tool";
+		};
+		F5DDAC961F5042780022A54B /* playback-Tutorial-6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5DDAC9B1F5042790022A54B /* Build configuration list for PBXNativeTarget "playback-Tutorial-6" */;
+			buildPhases = (
+				F5DDAC931F5042780022A54B /* Sources */,
+				F5DDAC941F5042780022A54B /* Frameworks */,
+				F5DDAC951F5042780022A54B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "playback-Tutorial-6";
+			productName = "playback-Tutorial-6";
+			productReference = F5DDAC971F5042780022A54B /* playback-Tutorial-6 */;
+			productType = "com.apple.product-type.tool";
+		};
+		F5DDACA21F5044C30022A54B /* playback-Tutorial-7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5DDACA71F5044C30022A54B /* Build configuration list for PBXNativeTarget "playback-Tutorial-7" */;
+			buildPhases = (
+				F5DDAC9F1F5044C30022A54B /* Sources */,
+				F5DDACA01F5044C30022A54B /* Frameworks */,
+				F5DDACA11F5044C30022A54B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "playback-Tutorial-7";
+			productName = "playback-Tutorial-7";
+			productReference = F5DDACA31F5044C30022A54B /* playback-Tutorial-7 */;
+			productType = "com.apple.product-type.tool";
+		};
+		F5DDACAE1F504FC30022A54B /* player-Tutorial-8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5DDACB31F504FC30022A54B /* Build configuration list for PBXNativeTarget "player-Tutorial-8" */;
+			buildPhases = (
+				F5DDACAB1F504FC30022A54B /* Sources */,
+				F5DDACAC1F504FC30022A54B /* Frameworks */,
+				F5DDACAD1F504FC30022A54B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "player-Tutorial-8";
+			productName = "player-Tutorial-8";
+			productReference = F5DDACAF1F504FC30022A54B /* player-Tutorial-8 */;
+			productType = "com.apple.product-type.tool";
+		};
+		F5DDACBA1F50511B0022A54B /* appSrc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5DDACBF1F50511B0022A54B /* Build configuration list for PBXNativeTarget "appSrc" */;
+			buildPhases = (
+				F5DDACB71F50511B0022A54B /* Sources */,
+				F5DDACB81F50511B0022A54B /* Frameworks */,
+				F5DDACB91F50511B0022A54B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appSrc;
+			productName = appSrc;
+			productReference = F5DDACBB1F50511B0022A54B /* appSrc */;
+			productType = "com.apple.product-type.tool";
+		};
+		F5FF85261ECCB5E800FAF5D9 /* appsink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5FF852D1ECCB5E800FAF5D9 /* Build configuration list for PBXNativeTarget "appsink" */;
+			buildPhases = (
+				F5FF85231ECCB5E800FAF5D9 /* Sources */,
+				F5FF85241ECCB5E800FAF5D9 /* Frameworks */,
+				F5FF85251ECCB5E800FAF5D9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appsink;
+			productName = appsink;
+			productReference = F5FF85271ECCB5E800FAF5D9 /* appsink */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -238,8 +921,40 @@
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
+					F523A33F1F55D2890047DC91 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					F523A3521F5EBA750047DC91 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
 					F533FD751E5F1F4500262463 = {
 						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F55506A01ECDDFDA00EB6849 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					F55A12881EC305680056DFA9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					F55A129A1EC5AA990056DFA9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					F55A12B91EC607F40056DFA9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					F565DBCD1F29DF9B00C38F85 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					F5767C9C1F542A1D00CD291C = {
+						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
 					F58336E81E54947F00BFAF60 = {
@@ -248,6 +963,30 @@
 					};
 					F58336F71E54A56000BFAF60 = {
 						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F5DDAC8A1F4EE70B0022A54B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					F5DDAC961F5042780022A54B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					F5DDACA21F5044C30022A54B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					F5DDACAE1F504FC30022A54B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					F5DDACBA1F50511B0022A54B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					F5FF85261ECCB5E800FAF5D9 = {
+						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -268,6 +1007,20 @@
 				F58336E81E54947F00BFAF60 /* Tutorial 1 */,
 				F58336F71E54A56000BFAF60 /* Tutorial 2 */,
 				F533FD751E5F1F4500262463 /* Tutorial 1 alt */,
+				F55A12881EC305680056DFA9 /* Overlay */,
+				F55A129A1EC5AA990056DFA9 /* Muxer */,
+				F55A12B91EC607F40056DFA9 /* TSPlayer */,
+				F5FF85261ECCB5E800FAF5D9 /* appsink */,
+				F55506A01ECDDFDA00EB6849 /* Metadata_Extractor */,
+				F565DBCD1F29DF9B00C38F85 /* JpegMux */,
+				F5DDAC8A1F4EE70B0022A54B /* PushImage */,
+				F5DDAC961F5042780022A54B /* playback-Tutorial-6 */,
+				F5DDACA21F5044C30022A54B /* playback-Tutorial-7 */,
+				F5DDACAE1F504FC30022A54B /* player-Tutorial-8 */,
+				F5DDACBA1F50511B0022A54B /* appSrc */,
+				F5767C9C1F542A1D00CD291C /* gdk-gstappsrc */,
+				F523A33F1F55D2890047DC91 /* Snapshot */,
+				F523A3521F5EBA750047DC91 /* WebcamSnapshot */,
 			);
 		};
 /* End PBXProject section */
@@ -280,11 +1033,75 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F523A33C1F55D2890047DC91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F523A3431F55D2890047DC91 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F523A34F1F5EBA750047DC91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F523A3561F5EBA750047DC91 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F533FD721E5F1F4500262463 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F533FD791E5F1F4500262463 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F555069D1ECDDFDA00EB6849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55506A41ECDDFDA00EB6849 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55A12851EC305680056DFA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55A128C1EC305680056DFA9 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55A12971EC5AA990056DFA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55A12A31EC5AABA0056DFA9 /* basic_mux.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55A12B61EC607F40056DFA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55A12BD1EC607F40056DFA9 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F565DBCA1F29DF9B00C38F85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F565DBD11F29DF9B00C38F85 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5767C991F542A1D00CD291C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5767CA01F542A1D00CD291C /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +1118,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				F58336FB1E54A56000BFAF60 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DDAC871F4EE70B0022A54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DDAC8E1F4EE70B0022A54B /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DDAC931F5042780022A54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DDAC9A1F5042790022A54B /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DDAC9F1F5044C30022A54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DDACA61F5044C30022A54B /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DDACAB1F504FC30022A54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DDACB21F504FC30022A54B /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DDACB71F50511B0022A54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5767CA81F54572E00CD291C /* tcpSource.c in Sources */,
+				F5DDACBE1F50511B0022A54B /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5FF85231ECCB5E800FAF5D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FF852A1ECCB5E800FAF5D9 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +1206,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
-					"$(inherited)",
+					$inherited,
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -349,10 +1215,13 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "/Library/Frameworks/GStreamer.framework/Headers/**";
-				LIBRARY_SEARCH_PATHS = "/Library/Frameworks/GStreamer.framework/Libraries/**";
+				LIBRARY_SEARCH_PATHS = (
+					"/Library/Frameworks/GStreamer.framework/Libraries/**",
+					"/usr/local/Cellar/gdk-pixbuf/2.36.9/lib",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-DHAVE_GTK=1";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -386,6 +1255,10 @@
 				FRAMEWORK_SEARCH_PATHS = "/Library/Frameworks/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"RELEASE=1",
+					$inherited,
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -393,9 +1266,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "/Library/Frameworks/GStreamer.framework/Headers/**";
-				LIBRARY_SEARCH_PATHS = "/Library/Frameworks/GStreamer.framework/Libraries/**";
+				LIBRARY_SEARCH_PATHS = (
+					"/Library/Frameworks/GStreamer.framework/Libraries/**",
+					"/usr/local/Cellar/gdk-pixbuf/2.36.9/lib",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-DHAVE_GTK=1";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -414,6 +1290,57 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = "/Library/Frameworks/GStreamer.framework/Headers/**";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F523A3441F55D2890047DC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F523A3451F55D2890047DC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F523A3581F5EBA750047DC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F523A3591F5EBA750047DC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -438,10 +1365,171 @@
 			};
 			name = Release;
 		};
+		F55506A51ECDDFDA00EB6849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F55506A61ECDDFDA00EB6849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F55A128D1EC305680056DFA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					$inherited,
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = $inherited;
+				LIBRARY_SEARCH_PATHS = $inherited;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F55A128E1EC305680056DFA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					$inherited,
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = $inherited;
+				LIBRARY_SEARCH_PATHS = $inherited;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F55A12A01EC5AA990056DFA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Library/Frameworks/GStreamer.framework/Headers/**",
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/Library/Frameworks/GStreamer.framework/Libraries/**",
+					/usr/local/lib,
+				);
+				OTHER_LDFLAGS = "-lzmq";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F55A12A11EC5AA990056DFA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Library/Frameworks/GStreamer.framework/Headers/**",
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/Library/Frameworks/GStreamer.framework/Libraries/**",
+					/usr/local/lib,
+				);
+				OTHER_LDFLAGS = "-lzmq";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F55A12BF1EC607F40056DFA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F55A12C01EC607F40056DFA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F565DBD21F29DF9B00C38F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F565DBD31F29DF9B00C38F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5767CA11F542A1D00CD291C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5767CA21F542A1D00CD291C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		F58336EE1E54947F00BFAF60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "";
@@ -452,7 +1540,10 @@
 		F58336EF1E54947F00BFAF60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "";
@@ -480,6 +1571,150 @@
 			};
 			name = Release;
 		};
+		F5DDAC8F1F4EE70B0022A54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5DDAC901F4EE70B0022A54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5DDAC9C1F5042790022A54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5DDAC9D1F5042790022A54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5DDACA81F5044C30022A54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5DDACA91F5044C30022A54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5DDACB41F504FC30022A54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5DDACB51F504FC30022A54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5DDACC01F50511B0022A54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5DDACC11F50511B0022A54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5FF852B1ECCB5E800FAF5D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5FF852C1ECCB5E800FAF5D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -501,6 +1736,22 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		F523A3461F55D2890047DC91 /* Build configuration list for PBXNativeTarget "Snapshot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F523A3441F55D2890047DC91 /* Debug */,
+				F523A3451F55D2890047DC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F523A3571F5EBA750047DC91 /* Build configuration list for PBXNativeTarget "WebcamSnapshot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F523A3581F5EBA750047DC91 /* Debug */,
+				F523A3591F5EBA750047DC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		F533FD7C1E5F1F4500262463 /* Build configuration list for PBXNativeTarget "Tutorial 1 alt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -508,6 +1759,61 @@
 				F533FD7B1E5F1F4500262463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55506A71ECDDFDA00EB6849 /* Build configuration list for PBXNativeTarget "Metadata_Extractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55506A51ECDDFDA00EB6849 /* Debug */,
+				F55506A61ECDDFDA00EB6849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55A128F1EC305680056DFA9 /* Build configuration list for PBXNativeTarget "Overlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55A128D1EC305680056DFA9 /* Debug */,
+				F55A128E1EC305680056DFA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55A129F1EC5AA990056DFA9 /* Build configuration list for PBXNativeTarget "Muxer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55A12A01EC5AA990056DFA9 /* Debug */,
+				F55A12A11EC5AA990056DFA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55A12BE1EC607F40056DFA9 /* Build configuration list for PBXNativeTarget "TSPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55A12BF1EC607F40056DFA9 /* Debug */,
+				F55A12C01EC607F40056DFA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F565DBD41F29DF9B00C38F85 /* Build configuration list for PBXNativeTarget "JpegMux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F565DBD21F29DF9B00C38F85 /* Debug */,
+				F565DBD31F29DF9B00C38F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5767CA31F542A1D00CD291C /* Build configuration list for PBXNativeTarget "gdk-gstappsrc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5767CA11F542A1D00CD291C /* Debug */,
+				F5767CA21F542A1D00CD291C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F58336ED1E54947F00BFAF60 /* Build configuration list for PBXNativeTarget "Tutorial 1" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +1829,60 @@
 			buildConfigurations = (
 				F58336FC1E54A56000BFAF60 /* Debug */,
 				F58336FD1E54A56000BFAF60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5DDAC911F4EE70B0022A54B /* Build configuration list for PBXNativeTarget "PushImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5DDAC8F1F4EE70B0022A54B /* Debug */,
+				F5DDAC901F4EE70B0022A54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5DDAC9B1F5042790022A54B /* Build configuration list for PBXNativeTarget "playback-Tutorial-6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5DDAC9C1F5042790022A54B /* Debug */,
+				F5DDAC9D1F5042790022A54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5DDACA71F5044C30022A54B /* Build configuration list for PBXNativeTarget "playback-Tutorial-7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5DDACA81F5044C30022A54B /* Debug */,
+				F5DDACA91F5044C30022A54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5DDACB31F504FC30022A54B /* Build configuration list for PBXNativeTarget "player-Tutorial-8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5DDACB41F504FC30022A54B /* Debug */,
+				F5DDACB51F504FC30022A54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5DDACBF1F50511B0022A54B /* Build configuration list for PBXNativeTarget "appSrc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5DDACC01F50511B0022A54B /* Debug */,
+				F5DDACC11F50511B0022A54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5FF852D1ECCB5E800FAF5D9 /* Build configuration list for PBXNativeTarget "appsink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5FF852B1ECCB5E800FAF5D9 /* Debug */,
+				F5FF852C1ECCB5E800FAF5D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

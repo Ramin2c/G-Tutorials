@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FFE959F9623EAAAAC85697ADA043DF2EA36AA76E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FFE959F9623EAAAAC85697ADA043DF2EA36AA76E" : 9223372036854775807,
+    "B64407C71E792B34332E0EB0C3F78D1E54CE0B77" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "285DB457-D28F-4939-9019-4BB581F5E5F0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FFE959F9623EAAAAC85697ADA043DF2EA36AA76E" : "GStreamer_Practice\/",
+    "B64407C71E792B34332E0EB0C3F78D1E54CE0B77" : "libzmq\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GStreamerPractice",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GStreamerPractice.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zeromq\/libzmq",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B64407C71E792B34332E0EB0C3F78D1E54CE0B77"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Ramin2c\/G-Tutorials.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FFE959F9623EAAAAC85697ADA043DF2EA36AA76E"
+    }
+  ]
+}

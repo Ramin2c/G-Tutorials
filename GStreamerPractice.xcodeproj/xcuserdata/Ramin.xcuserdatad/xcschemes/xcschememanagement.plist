@@ -9,6 +9,41 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>JpegMux.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>Metadata_Extractor.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>Muxer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Overlay.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>PushImage.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>Snapshot.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
+		<key>TSPlayer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>Tutorial 1 alt.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -24,6 +59,41 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>WebcamSnapshot.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+		<key>appSrc.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>appsink.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>gdk-gstappsrc.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>playback-Tutorial-6.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>playback-Tutorial-7.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>player-Tutorial-8.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -32,7 +102,47 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>F523A33F1F55D2890047DC91</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F523A3521F5EBA750047DC91</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>F533FD751E5F1F4500262463</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F55506A01ECDDFDA00EB6849</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F55A12881EC305680056DFA9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F55A129A1EC5AA990056DFA9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F55A12B91EC607F40056DFA9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F565DBCD1F29DF9B00C38F85</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5767C9C1F542A1D00CD291C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -48,6 +158,36 @@
 			<true/>
 		</dict>
 		<key>F58336F71E54A56000BFAF60</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5DDAC8A1F4EE70B0022A54B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5DDAC961F5042780022A54B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5DDACA21F5044C30022A54B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5DDACAE1F504FC30022A54B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5DDACBA1F50511B0022A54B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5FF85261ECCB5E800FAF5D9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
